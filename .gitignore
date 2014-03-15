@@ -1,0 +1,6 @@
+.git
+node_modules
+bower_modules
+.vim.custom
+web/**/*.css
+todo.md

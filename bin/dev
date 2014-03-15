@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+./node_modules/.bin/nodemon \
+    -e js,jade,styl \
+    -w web -w lib \
+    bin/covis server -c $1 -l $2

@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+    title lcov visualization
+
+    link(rel="stylesheet", href="/normalize-css/normalize.css")
+    link(rel="stylesheet", href="/app/main.css")
+    link(rel="stylesheet", href="/x-cov-graph/x-cov-graph.css")
+
+    script(src="/x-tag-core/dist/x-tag-core.min.js", type="text/javascript", charset="utf-8")
+    script(src="/d3/d3.min.js")
+    script(src="/zepto/zepto.min.js")
+    script(src="/x-cov-graph/x-cov-graph.js")
+    script(type="text/javascript").
+      $(window).on('load', function () {
+        $('x-cov-graph').forEach(function (graph) {
+          graph.draw()
+        })
+      })
+
+  body
+    .legend
+      label.ok 90-100
+      label.warn 60-89
+      label.bad 1-59
+      label.nocov 0
+
+    x-cov-graph(data="/app/graph/data.json", diameter="720")
