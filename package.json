@@ -1,13 +1,12 @@
 {
   "name": "covis",
-  "version": "0.0.1",
-  "description": "",
-  "homepage": "A [fun] project for visualizing your test code coverage.",
+  "version": "0.0.2",
+  "description": "A [fun] project for visualizing your test code coverage.",
+  "homepage": "",
   "author": {
     "name": "Brent Lintner",
     "email": "brent.lintner@gmail.com"
   },
-  "private": true,
   "licenses": [{
     "type": "MIT"
   }],

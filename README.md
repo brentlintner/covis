@@ -1,13 +1,13 @@
 ## Covis
 
-A (fun) project for visualizing one's test code coverage.
+A (fun) project for visualizing (lcov) test code coverage data.
 
-Note: This is more of a personal project- use at your own risk.
+## Installation
 
-## Setup
+    npm install -g covis
 
-    git clone git@github.com:brentlintner/covis.git
-    npm install -g covis/
+## Usage
+
     covis help
 
 ## Kudos
