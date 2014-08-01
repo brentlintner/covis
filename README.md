@@ -10,6 +10,10 @@ A (fun) project for visualizing (lcov) test code coverage data.
 
 ## Usage
 
+The CLI takes in a `*.lcov` file, and renders a web based visualization of it.
+
+To see more, type:
+
     covis help
 
 ## Kudos
