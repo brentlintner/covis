@@ -1,6 +1,6 @@
 ## Covis
 
-[![Dependency Status](https://david-dm.org/brentlintner/covis.png)](https://david-dm.org/brentlintner/covis)
+[![Dependency Status](https://david-dm.org/brentlintner/covis.svg)](https://david-dm.org/brentlintner/covis)
 
 A (fun) project for visualizing (lcov) test code coverage data.
 
