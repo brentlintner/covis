@@ -1,5 +1,7 @@
 ## Covis
 
+![](https://david-dm.org/brentlintner/covis.png)
+
 A (fun) project for visualizing (lcov) test code coverage data.
 
 ## Installation
