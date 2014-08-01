@@ -18,6 +18,10 @@ To see more, type:
 
     covis help
 
+## Versioning
+
+This project ascribes to [semantic versioning](http://semver.org).
+
 ## Kudos
 
 * [d3](http://d3js.org)
